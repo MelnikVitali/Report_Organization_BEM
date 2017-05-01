@@ -1,0 +1,47 @@
+/* open block content__present */
+.present{
+	margin: 25px 0;
+	font: bold 9px;
+	color: #666666; /* text color*/
+	overflow: hidden;
+}
+.present__link{
+	border: 1px solid #dedede;       /* block present li */
+	padding: 12px;  
+}
+.present__link:hover{
+	background-color: #ffffff;
+	cursor: pointer;
+}
+.present__link--active{
+	background-color: white; /* цвет активного блока */
+}
+.present__link--alarm-bg{
+	position: relative;
+	color: #DF293A;
+}
+i.present__icon-info{
+	position: absolute;
+	top: 3px;
+	left: 3px;
+	color: #767676;
+	font-size: 12px;
+}
+.present__content{
+	width: 100px;/* ширина чтобы при флоат сработало центрирование */
+    margin: 0 auto;/*  центрирование */
+    white-space: nowrap;
+}
+.present__img{
+    width: 50px;          /* размер круга */
+	margin-right: 9px;   /* отступ текста от круга */
+}
+.present__number{  /* цыфры возле круга */
+	font-size: 32px;
+	line-height: 27px;
+}
+.present__text{  /* параграф возле круга */
+	font-size: 12px;
+    font-weight: bold;
+    line-height: 11px;
+}

@@ -1,0 +1,64 @@
+@media all and (max-width: 1030px){
+	.tab-report__data--1020-none{
+		display:none !important;
+	}
+} 
+@media all and (max-width: 769px){
+	.tab-report{	
+		margin-top: 20px;
+		float: none;
+	}
+	.text-report{
+		float: none;		
+	}
+	.search-panel{
+		display: none;
+	}
+}
+@media all and (max-width: 547px){
+	.footer__vertical-line{
+		display: none;
+	}
+	.footer__chevron-list{
+		float: none;
+		width: 100%;
+	}
+	.footer__chevron-item{
+		width: 50%;
+	}
+	.footer__button{
+		float: none;
+	}
+	.footer__button-img{ /* значек Excel */
+		float: none;
+		vertical-align: middle;
+	}
+	.footer__page{
+		float: none;
+		width: 100%;
+	}
+}
+@media all and (max-width: 495px){
+	.text-report{
+		font-size: 18px;
+	}
+	.tab-report__line{
+		display: none;
+	}
+	.tab-report__data--495-w100{
+		width: 100%;
+		margin-bottom: 3px;
+	}	
+	.tab-report__day--495-w20{
+		width: 20%;
+		text-align: center;
+	}
+	.tab-report__day--495-w80{
+		width: 80%;
+		text-align: center;
+	}
+	.tab-report__day--495-w50{
+		width: 50%;
+	}
+	
+}

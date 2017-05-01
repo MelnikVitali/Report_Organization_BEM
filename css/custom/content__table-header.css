@@ -1,0 +1,81 @@
+/* open block content__table-header*/
+.table-header{
+	color: #5B5B5B; /*  text color */
+	font-size: 17px;
+	background-color: white;
+	padding: 18px 24px 15px 10px;
+}
+.table-header__img{
+	padding-top: 2px; /*выравнивание иконки поиск */
+ 	color: #5B5B5B;
+}
+.table-header__img:hover{
+	cursor: pointer;
+}
+/* end block content__table-header open content__table*/
+.content__tab-operation{
+	background-color: white;
+	border: none;    /* убираем бордер будстрапа */
+}
+table.tab-operation{
+ 	color: #5B5B5B; /*  text color */
+	font-size: 14px;
+	margin-bottom: 0;
+	border-bottom: 1px solid #d9d9d9;
+	white-space: nowrap;
+}
+.tab-operation__tr:hover{
+	cursor: pointer;
+}
+.tab-operation__th{
+	font-size: 13px;
+	font-weight: bold;
+}
+.tab-operation__th--data-width{
+	width: 460px; /*второго ряда дата ширина */
+ 
+}
+.tab-operation__td{
+    vertical-align: middle !important; /* убираем top будстрапа */    
+}
+.tab-operation__td--left{
+	padding-left: 13px !important;/*выравнивание первого ряда таблицы*/
+}
+.tab-operation__td--align-r{
+	text-align: right; /*выравнивание последнего ряда таблицы*/
+ 	padding-right: 20px !important;
+}
+.tab-operation__circle{
+	width: 10px;       /*Круги в таблице */
+	height: 10px;
+	background: #DF293A;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px;
+	display: inline-block;
+}
+.tab-operation__circle:hover{
+	cursor: pointer;
+}
+.tab-operation__circle--orange{
+	background: #F3932D;/*Круги в таблице */
+}
+.tab-operation__circle--green{
+	background:  #47AB4F;/*Круги в таблице */
+}
+.tab-operation__img-avatar{
+	width: 28px; /*Размер аватара */
+	margin-top: 3px;
+}
+.tab-operation__img-user{
+	width: 23px;
+	margin: 3px 0 0 2px;
+
+}
+.tab-operation__img-text{
+	padding-left: 34px;/*отступ от аватара и юзера*/
+}
+.tab-operation__img-text--l-heigt{
+	font-size: 11px;
+    line-height: 11px;
+}
