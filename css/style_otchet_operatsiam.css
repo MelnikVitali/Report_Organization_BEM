@@ -18,16 +18,16 @@
 @import url('custom/content.css');
 
 /* open block content__header */
-@import url('custom/content__header.css');
+@import url('custom/content_header.css');
 
 /* open block content__present */
-@import url('custom/content__present.css');
+@import url('custom/content_present.css');
 
 /* open block content__table-header*/
-@import url('custom/content__table-header.css');
+@import url('custom/content_table-header.css');
 
 /*  open block content__footer*/
-@import url('custom/content__footer.css');
+@import url('custom/content_footer.css');
 
 /* media-queries */
 @import url('custom/media-queries.css');
